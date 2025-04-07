@@ -56,14 +56,14 @@ class BankAccount:
         Returns:
         - float: The current balance of the account.
         """
-        return 0
+        return self._balance
 
     def get_account_number(self):
         """
-        Instead of returnin 0, this method should Get the account number 
+        Instead of returning 0, this method should Get the account number 
         of the bank account and return it.
 
         Returns:
         - str: The account number of the account.
         """
-        return 0
+        return self._account_number
